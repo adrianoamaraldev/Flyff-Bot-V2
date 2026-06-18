@@ -1,0 +1,41 @@
+# Ambiente virtual Python
+venv/
+backend/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+backend/logs/
+
+# Perfil do browser (contém sessão/login salvo — não commitar)
+browser_profile/
+backend/browser_profile/
+
+# Modelo YOLO (arquivo grande, treinar localmente)
+backend/assets/model.pt
+
+# Debug
+backend/tools/frame_capturado.png
+
+# Tauri / Rust
+desktop/node_modules/
+desktop/src-tauri/target/
+
+# PyInstaller output e Chromium bundled (gerados pelo build.ps1)
+backend/build/
+backend/dist/
+backend/browsers/
+
+# Claude Code
+.claude/settings.local.json
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

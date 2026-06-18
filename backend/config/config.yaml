@@ -1,0 +1,51 @@
+browser:
+  headless: false
+  width: 1024
+  height: 600
+  game_url: https://universe.flyff.com/play
+farm:
+  attack_timeout: 15
+  action_delay: 0.3
+character:
+  hp_threshold: 0.5
+  hp_potion_key: '1'
+  mp_threshold: 0.3
+  mp_potion_key: '2'
+  fp_threshold: 0.3
+  fp_potion_key: '3'
+  potion_cooldown: 3
+skills:
+  rotation:
+  - key: c
+    cooldown: 0
+  skill_delay: 0.5
+loot:
+  loot_key: '4'
+  auto_loot: true
+  loot_delay: 0.8
+  loot_duration: 2.5
+vision:
+  detection_confidence: 0.75
+  monsters_path: assets/monsters
+  name_click_offset_y: 20
+  selected_monster: Pukepuke
+  hp_bar_region:
+    x: 107
+    y: 30
+    width: 109
+    height: 14
+  mp_bar_region:
+    x: 107
+    y: 46
+    width: 109
+    height: 12
+  fp_bar_region:
+    x: 107
+    y: 62
+    width: 108
+    height: 12
+logging:
+  level: INFO
+  save_to_file: true
+  log_path: logs/bot.log
+  visual_overlay: true
